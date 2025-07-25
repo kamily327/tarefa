@@ -12,6 +12,10 @@ body{
   text-align: center;
 }
 
+.container input{
+  cursor: pointer;
+}
+
 
 .teste{
 display:flex;
@@ -24,5 +28,39 @@ justify-content: space-between;
 align-items: center;
 border-radius: 10px;
 font-size: 1.3rem;
+transition: background 0.3s ease;
+}
+.teste:hover{
+  background: #22222286;
+}
+.teste button{
+  font-size: 1.1rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.teste .btn-excluir{
+  color: rgb(173, 36, 36);
+}
+.teste .tarefaConcluida{
+  color: rgb(40, 119, 40);
+  font-size: 1.2rem;
+}
+.container .inputEntrada{
+ width: 200px;
+ border-radius: 5px;
+ background-color: white;
+ color: black;
+ font-weight: 500;
+ cursor: text;
+}
+.container input{
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: rgb(40, 119, 40);
+  color: white;
+  padding: 7px;
+  font-weight: bold;
 }
 

@@ -10,15 +10,14 @@ btn.addEventListener('click' , function(){
     if(entrada.value !== ''){
 
         const teste = document.createElement('div')
-        teste.innerHTML +=`
+        teste.innerHTML =`
 
 
         <p class='tarefa'>${entrada.value}</p> 
         <div class ='buttons'>
  
-        <button class="btn-excluir">X</button>
-        <button class='tarefaConcluida'>✔</button></button>
-        </div>
+        <button class="btn-excluir "><i class="fas fa-trash"></i></button>
+        <button class='tarefaConcluida'><i class="fas fa-check"></i></button>
     
         </div>
    
