@@ -1,0 +1,28 @@
+*{
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: #111;
+  color: white;
+  font-family: sans-serif;
+}
+.container{
+  text-align: center;
+}
+
+
+.teste{
+display:flex;
+background: #222;
+margin-top: 20px;
+padding: 24px;
+max-width: 1000px;
+margin: 15px auto;
+justify-content: space-between;
+align-items: center;
+border-radius: 10px;
+font-size: 1.3rem;
+}
+
